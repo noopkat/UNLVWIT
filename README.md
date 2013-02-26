@@ -1,3 +1,4 @@
+
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.png?branch=master)](https://travis-ci.org/hakimel/reveal.js)
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://lab.hakim.se/reveal-js/).
@@ -80,7 +81,7 @@ Reveal.initialize({
 	// Change the presentation direction to be RTL
 	rtl: false,
 
-	// Number of milliseconds between automatically proceeding to the 
+	// Number of milliseconds between automatically proceeding to the
 	// next slide, disabled when set to 0, this value can be overwritten
 	// by using a data-autoslide attribute on your slides
 	autoSlide: 0,
@@ -102,28 +103,28 @@ Note that the new default vertical centering option will break compatibility wit
 
 ### Presentation Size
 
-All presentations have a normal size, that is the resolution at which they are authored. The framework will automatically scale presentations uniformly based on this size to ensure that everything fits on any given display or viewport. 
+All presentations have a normal size, that is the resolution at which they are authored. The framework will automatically scale presentations uniformly based on this size to ensure that everything fits on any given display or viewport.
 
 See below for a list of configuration options related to sizing, including default values:
 
 ```javascript
 Reveal.initialize({
-	
+
 	...
-	
+
 	// The "normal" size of the presentation, aspect ratio will be preserved
 	// when the presentation is scaled to fit different resolutions. Can be
 	// specified using percentage units.
 	width: 960,
 	height: 700,
-	
+
 	// Factor of the display size that should remain empty around the content
 	margin: 0.1,
-	
+
 	// Bounds for smallest/largest possible scale to apply to content
 	minScale: 0.2,
 	maxScale: 1.0
-	
+
 });
 ```
 
@@ -319,7 +320,7 @@ Just press »F« on your keyboard to show your presentation in fullscreen mode. 
 
 ## PDF Export
 
-Presentations can be exported to PDF via a special print stylesheet. This feature requires that you use [Google Chrome](http://google.com/chrome). 
+Presentations can be exported to PDF via a special print stylesheet. This feature requires that you use [Google Chrome](http://google.com/chrome).
 Here's an example of an exported presentation that's been uploaded to SlideShare: http://www.slideshare.net/hakimel/revealjs-13872948.
 
 1. Open your presentation with [css/print/pdf.css](https://github.com/hakimel/reveal.js/blob/master/css/print/pdf.css) included on the page. The default index HTML lets you add *print-pdf* anywhere in the query to include the stylesheet, for example: [lab.hakim.se/reveal-js?print-pdf](http://lab.hakim.se/reveal-js?print-pdf).
@@ -402,4 +403,5 @@ If you want to customise reveal.js without running grunt.js you can alter the HT
 MIT licensed
 
 Copyright (C) 2013 Hakim El Hattab, http://hakim.se
+
 
